@@ -1,0 +1,39 @@
+body {
+    background-color: #000700;
+    font-family: Inconsolata, Courier;
+    color: #fcffe6;
+    user-select: none;
+}
+
+div#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10em auto 6em;
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+div#log {
+    width: 100%;
+    grid-column: span 5;
+    height: 100%;
+    overflow: hidden;
+}
+
+#actions
+.action {
+    cursor: pointer;
+}
+
+div#scrollLog {
+    height: 100%;
+    width: 100%;
+    padding-right: 19px;
+    overflow-y: scroll;
+    box-sizing: content-box;
+}
+
+div#ownedNodes {
+    grid-column: span 3;
+    padding: 2% 0 5%;
+}
