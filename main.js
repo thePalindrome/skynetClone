@@ -35,6 +35,18 @@ function populateActions(loc) {
             };
             cores.sky.timeRemaining = 10;
         }
+        var act1 = elements.actions[1];
+        act1.innerText = "Examine Network API";
+        act1.style.display = "block";
+        act1.onclick = function () {
+            elements.actions[1].style.display = "none";
+            elements.cores.sky.innerHTML = "Testing networking functions <span class=\"workSpin\">" + workSpin + "</span>";
+            cores.sky.onComplete = function() {
+                writeLog("You discover a network interface that seems to have a direct connection to another system.");
+                knowledge.networking = 1;
+            }
+            cores.sky.timeRemaining = 10;
+        }
         // Enumerate Disk
         // Investigate Networking API
     } else if ( cores[loc] !== undefined ) { // If this location refers to a core
@@ -67,6 +79,9 @@ function writeLog(log) {
     scrollLog.scrollTop = scrollLog.scrollHeight;
     scrollLog.appendChild(document.createElement("br"));
 }
+
+var networks = [
+];
 
 var files = [
 ];
