@@ -25,6 +25,10 @@ div#log {
     cursor: pointer;
 }
 
+div.file {
+    cursor: pointer;
+}
+
 div#scrollLog {
     height: 100%;
     width: 100%;

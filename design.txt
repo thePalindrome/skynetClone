@@ -1,0 +1,8 @@
+You'll either spawn as MSDOS or GNU/Linux, requiring you to pick up
+cygwin/wine to get the full suite of programs (maybe have a bias towards
+programs you get first depending on your OS?)
+
+Different networks, accessible from special bridge machines
+
+Possibly different "active exploits", memory scanning, file handle detection,
+etc, to locate interesting or useful things?

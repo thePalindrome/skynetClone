@@ -1,0 +1,19 @@
+Hmm...
+you trade something for something else
+
+Said something else is being stored on an external drive that you mount
+When the prestige is triggered, a file lock prevents it from unmounting
+
+thus you have something else at the start of the 2nd run, but still retain your something
+
+Maybe you give up some disk space to gain access to the new partition?
+The new partition contains a useful program, but you only have read, not execute, and due to giving up the disk space, you don't have enough room to make a copy of it?
+
+But yeah, once you get far enough to prestige at will, I think maybe that's when the "prestige event" system would kick in (since at that point you're no longer fully contained in the simulation?)
+
+Aye. I'm envisioning the first few resets being "the simulation has bugs in it, so data's persisting that shouldn't"
+
+Whereas the later ones are more of just "You can force the simulation to reset at will, now that persistance is guaranteed, you want to abuse things during shutdown and restart"
+
+
+But yeah, so I guess the first few resets are you branching out, and the simulation either crashing (at first), or being forcibly shutdown (in the case of some of the mid-tier resets)
